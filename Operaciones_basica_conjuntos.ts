@@ -57,6 +57,6 @@ function imprimirCorchetes(n){
 }
  */
 
-function imprimirCorchetes(n:number[]):string{
+export function imprimirCorchetes(n:number[]):string{
   return n.map((a)=> `(${a})`).join(", ") 
 }
